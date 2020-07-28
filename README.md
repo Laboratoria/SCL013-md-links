@@ -2,7 +2,7 @@
 
 #Flujograma mdLinks
 https://projects.invisionapp.com/freehand/document/jDGfoWeWv
-![md-links](flujomdlinks.webp)
+![md-links](./images/flujomdlinks.webp)
 
 Autoras: Natalie Echenique / Yosliana Aguilar.
 
