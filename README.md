@@ -1,8 +1,11 @@
 # Markdown Links
 
-#Flujograma mdLinks
+## Flujograma mdLinks
+
 https://projects.invisionapp.com/freehand/document/jDGfoWeWv
 ![md-links](./images/flujomdlinks.webp)
+
+## Historias de Usuario
 
 | Historias de Usuarios                                                                                                                            | Criterio de Aceptación                                                                                       | Criterios de Terminado                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -14,7 +17,7 @@ https://projects.invisionapp.com/freehand/document/jDGfoWeWv
 
 
 Autoras: Natalie Echenique / Yosliana Aguilar.
-
+Generación: SCL013-Laboratoria
 
 
 
