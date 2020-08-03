@@ -14,8 +14,7 @@ fs.readFile("README.md", "utf-8", (error,file) => {
 // lee el directorio
 const file = fs.readdir('./',(error, file)=>{
   if (error){
-    throw error;
-  }
+    throw error;  }
   console.log('me trae la lista de archivos ?n',file)
 
 
