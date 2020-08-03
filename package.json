@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/yoslianaguilar/SCL013-md-links/issues"
   },
-  "homepage": "https://github.com/yoslianaguilar/SCL013-md-links#readme"
+  "homepage": "https://github.com/yoslianaguilar/SCL013-md-links#readme",
+  "dependencies": {
+    "url-exists": "^1.0.3"
+  }
 }
