@@ -17,11 +17,11 @@ file = path.normalize(file); // Limpia elementos que esten demas al mostrarse en
 // Si todo sale bien, mostrará los archivos, si no tirara el error
 const showFile = (file) => {
   return new Promise((resolve, reject) => {
-    fs.readFile(file, 'utf8', (err, file) => {
+    fs.readFile(file, 'utf8', (err, data) => {
       if (err) {
         return reject(err)
       } else {
-        resolve(file)
+        resolve(data)
         console.log(chalk.blue('Hola coder, esta es la ruta!'));
       }
         console.log(reject);
@@ -36,7 +36,7 @@ fs.readdir(file,'utf-8', (err, file) => {
     if (file.includes('.md')) {
       showFile(file)
       .then((fileData) => {
-      // console.log(chalk.green('File:',file));
+      console.log(chalk.green('File:',file));
     })
 
     .catch((error) => {
