@@ -1,14 +1,6 @@
 const fs = require('fs');
 const chalk = require ('chalk');
 
-// lee el readme
-fs.readFile('./README.md', 'UTF-8', (error, archivo)=>{
-  if (error){
-    throw error;
-  }
-  console.log (chalk.magenta('Contenido del archivo \n', archivo));
-})
-
 // Lee los links
 // Lo puse con ruta especifica en vez de 'filePath' en
 const readMd = (filePath) => {
@@ -29,7 +21,3 @@ const readMd = (filePath) => {
 module.exports = {
   readMd: readMd
 }
-
-
-
-
