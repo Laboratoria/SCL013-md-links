@@ -3,7 +3,7 @@ const path = require ("path"); // Maneja url y archivos
 const chalk = require ('chalk'); // Chalk dará estilos de colores a los mensajes de la terminal
 // const marked = require("marked");
 // const regExr = require ("regExr");
-
+/*
 let file = process.argv[2]; // Archivo, posicion 2
 file = path.resolve(file); // Llamamos a let file  y a la ruta path se le asigna una función que pasa la ruta de relativa absoluta
 file = path.normalize(file); // Limpia elementos que esten demas al mostrarse en la ruta
@@ -47,12 +47,19 @@ fs.readdir(file,'utf-8', (err, file) => {
   });
 });
 
+*/
+
 const { readDir } = require('./src/dir-inspector');
 const { readMd } = require('./src/readMd');
-let { verifyUrl } = require('./src/verifyUrl');
+const { verifyUrl } = require('./src/verifyUrl');
+const userPath = process.argv[2]
+//userPath = path.resolve(userPath);
+//userPath = path.normalize(userPath);
+
 
 // Muestra links
-const rd = readDir('./'); // Poner direccion especifica
+const rd = readDir(userPath); // Poner direccion especifica
+
 rd
   .then((filesPaths) => {
     const promises = []; // Creamos promesa dentro de un array
@@ -94,8 +101,10 @@ rd
           validLinks: validLinks.length
         };
         console.log("Soy stats", stats);
+        console.log('Esta es la Ruta del Archivo\n',rd);
       });
   })
   .catch((error) => {
     console.log(error);
   });
+
