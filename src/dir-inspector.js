@@ -31,8 +31,7 @@ module.exports = {
   readDir: readDir
 }
 
-/*
 // Test behavior
-const rd = readDir("../node_modules", "../files-to-read");
-rd.then(files => console.log(files))
-*/
+// const rd = readDir("../node_modules", "../files-to-read");
+// rd.then(files => console.log(files))
+

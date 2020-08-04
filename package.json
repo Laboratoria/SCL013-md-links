@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/yoslianaguilar/SCL013-md-links#readme",
   "dependencies": {
+    "filehound": "^1.17.4",
     "url-exists": "^1.0.3"
-  }
+  },
+  "devDependencies": {}
 }
