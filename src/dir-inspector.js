@@ -10,13 +10,16 @@ const readDir = (...userPaths) => {
     console.log(chalk.cyan('Ruta de busqueda asignada por el usuario'));
     console.log(p);
     if (typeof(p) === "string") {
+      
       paths.push((p));
     }
+
   });
   return new Promise((resolve, reject) => {
     Filehound.create()
       .ext("md")
       .paths(paths)
+      .discard('node_modules')
       .find((err, mdFiles) => {
         if (err) {
           reject(err);
