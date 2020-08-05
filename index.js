@@ -51,6 +51,7 @@ rd
           validLinks: validLinks.length,
           inValidLinks : concatenatedResults.length - validLinks.length
         };
+        console.log(chalk.cyan('Resumen de link Analizados:'));
         console.table(stats);
       });
   })
