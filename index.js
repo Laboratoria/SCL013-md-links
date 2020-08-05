@@ -11,6 +11,7 @@ const userPath = path.isAbsolute(userInput) ?
 const rd = readDir(userPath);
 rd
   .then((filesPaths) => {
+    console.log(chalk.magenta('Buscando archivos... por favor espere!\n'));
     const promises = [];
     filesPaths.forEach((filePath) => {
       promises.push(new Promise((resolve, reject) => {
@@ -36,7 +37,8 @@ rd
         allLinksResults.forEach((result) => {
           concatenatedResults = concatenatedResults.concat(result)
         });
-        console.log("Array concatenados", concatenatedResults);
+        console.log(chalk.greenBright("Array concatenados de links Analizados\n"))
+        console.log(concatenatedResults);
         const validLinks = concatenatedResults.filter((linkItem) => {
           if (linkItem.exists === true) {
             return true;
@@ -49,7 +51,6 @@ rd
           validLinks: validLinks.length,
           inValidLinks : concatenatedResults.length - validLinks.length
         };
-console.log(rd)
         console.table(stats);
       });
   })
