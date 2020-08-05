@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/yoslianaguilar/SCL013-md-links#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "chalk": "^4.1.0",
     "filehound": "^1.17.4",
+    "jest": "^26.2.2",
     "url-exists": "^1.0.3"
   },
   "devDependencies": {}
