@@ -25,17 +25,6 @@ const verifyUrl = (links = []) => {
       });
   });
 };
-
-//  const verifyUrls = verifyUrl(['http://google.com', 'https://www.fakeurl.notreal', 'http://facebook.com', 'www.cant.net' ]);
-// verifyUrls
-//      .then((result) => {
-//           console.log(result);
-//      })
-//      .catch((error) => {
-//           console.log(error);
-//      });
-
-
 module.exports = {
   verifyUrl: verifyUrl
 }
