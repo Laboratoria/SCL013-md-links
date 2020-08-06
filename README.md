@@ -18,6 +18,12 @@ https://projects.invisionapp.com/freehand/document/jDGfoWeWv
 
 Md-Links es una librería creada de node.js y desarrollada bajo el lenguaje JavaScript, con el propósito de leer archivos md y extraer los links que contienen dichos archivos, con esta librería el usuario podrá  encontrar los enlaces, validar su status y visualizar estádisticas respecto al total de links encontrados, validos y no validos.
 
+## Nombre Liberia 
+
+get_my_md_links
+
+https://www.npmjs.com/package/get_my_md_links
+
 
 ## Cómo instalar la librería md-link
 
@@ -25,6 +31,8 @@ Md-Links es una librería creada de node.js y desarrollada bajo el lenguaje Java
    Ejecutar el comando npm install ()
    Posicionarse en el archivo a analizar
    Para ejecutar la libreria debes escribir ruta que se quiere analizar ya sea desde el escritorio o desde una archivo especifico
+
+
 Autoras: Natalie Echenique / Yosliana Aguilar.
 Generación: SCL013-Laboratoria
 

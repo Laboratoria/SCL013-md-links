@@ -1,5 +1,5 @@
 {
-  "name": "md-links",
+  "name": "get_my_md_links",
   "version": "0.1.0",
   "description": "Liberia que analiza archivos en formato Markdown, para verificar los links que este contengan y reportar algunas estadísticas.",
   "main": "index.js",
