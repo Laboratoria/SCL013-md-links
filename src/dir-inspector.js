@@ -16,6 +16,7 @@ const readDir = (...userPaths) => {
   return new Promise((resolve, reject) => {
     Filehound.create()
       .ext("md")
+      .discard('node_modules')
       .paths(paths)
       .find((err, mdFiles) => {
         if (err) {
