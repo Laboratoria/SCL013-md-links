@@ -28,7 +28,7 @@ https://www.npmjs.com/package/get_my_md_links
 ## Cómo instalar la librería md-link
 
 ## Es necesario tener instalado node.js
-   Ejecutar el comando npm install ()
+   Ejecutar el comando npm i get_my_md_links
    Posicionarse en el archivo a analizar
    Para ejecutar la libreria debes escribir ruta que se quiere analizar ya sea desde el escritorio o desde una archivo especifico
 
