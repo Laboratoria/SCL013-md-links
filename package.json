@@ -1,13 +1,14 @@
 {
   "name": "md-links",
   "version": "0.1.0",
-  "description": "## Flujograma mdLinks",
+  "description": "Liberia que analiza archivos en formato Markdown, para verificar los links que este contengan y reportar algunas estadísticas.",
   "main": "index.js",
   "directories": {
-    "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose",
+
+    
     "start": "node index.js"
   },
   "repository": {
