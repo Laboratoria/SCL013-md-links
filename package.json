@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "description": "Liberia que analiza archivos en formato Markdown, para verificar los links que este contengan y reportar algunas estadísticas.",
   "main": "index.js",
-  "directories": {
-  },
+  "directories": {},
   "scripts": {
     "test": "jest --verbose",
-
-    
     "start": "node index.js"
   },
   "repository": {
