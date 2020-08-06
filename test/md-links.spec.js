@@ -29,14 +29,3 @@ test ('User fetch shold be Leann Graham', ()=>{
   expect(data)
 })
 */
-
-
-
-const readMD = require('../src/readMd');
-
-test('readMD', () => {
-  expect.assertions(1)
-  return readMD.then(readMD => {
-    expect(readMD(path)).toBe('function');
-  });
-});
