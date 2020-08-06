@@ -2,7 +2,7 @@
 
 ## Flujograma mdLinks
 
-https://projects.invisionapp.com/freehand/document/jDGfoWeWv
+https://www.figma.com/proto/gS9kWX4w8KSmwBusgLKcSE/Untitled?node-id=1%3A24&scaling=min-zoom
 ![md-links](./images/flujomdlinks.webp)
 
 ## Historias de Usuario
@@ -18,7 +18,7 @@ https://projects.invisionapp.com/freehand/document/jDGfoWeWv
 
 Md-Links es una librería creada de node.js y desarrollada bajo el lenguaje JavaScript, con el propósito de leer archivos md y extraer los links que contienen dichos archivos, con esta librería el usuario podrá  encontrar los enlaces, validar su status y visualizar estádisticas respecto al total de links encontrados, validos y no validos.
 
-## Nombre Liberia 
+## Nombre Liberia
 
 get_my_md_links
 
