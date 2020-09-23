@@ -1,4 +1,4 @@
-const mdLinks = require('../');
+/*const mdLinks = require('../');
 
 
 describe('mdLinks', () => {
@@ -8,3 +8,24 @@ describe('mdLinks', () => {
   });
 
 });
+
+const axios = require('axios');
+
+const promises = {
+  fetchUser:() => axios
+  .get('https://jsonplaceholder.typicode.com/todos/1')
+  .then(res => res.data)
+  .catch(error => 'Ejecutando Error')
+}
+
+module.exports = promises;
+*/
+/*
+const promises = require('../src/readMd')
+test ('User fetch shold be Leann Graham', ()=>{
+  expect.assertions(1);
+  const data = await promises.fecthUser();
+  expect(data.name).toEqual('Leanne Graham');
+  expect(data)
+})
+*/

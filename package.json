@@ -1,4 +1,29 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "get_my_md_links",
+  "version": "0.1.0",
+  "description": "Liberia que analiza archivos en formato Markdown, para verificar los links que este contengan y reportar algunas estadísticas.",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoslianaguilar/SCL013-md-links.git"
+  },
+  "author": "Natalie Echenique | Yosliana Aguilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoslianaguilar/SCL013-md-links/issues"
+  },
+  "homepage": "https://github.com/yoslianaguilar/SCL013-md-links#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "filehound": "^1.17.4",
+    "jest": "^26.2.2",
+    "url-exists": "^1.0.3"
+  },
+  "devDependencies": {}
 }
