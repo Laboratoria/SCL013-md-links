@@ -1,5 +1,14 @@
 # Markdown Links
 
+## Qué es md-link
+
+Md-Links es una librería creada de node.js y desarrollada bajo el lenguaje JavaScript, con el propósito de leer archivos md y extraer los links que contienen dichos archivos, con esta librería el usuario podrá  encontrar los enlaces, validar su status y visualizar estádisticas respecto al total de links encontrados, validos y no validos.
+
+## Nombre Liberia
+
+get_my_md_links
+
+https://www.npmjs.com/package/get_my_md_links
 ## Flujograma mdLinks
 
 https://www.figma.com/proto/gS9kWX4w8KSmwBusgLKcSE/Untitled?node-id=1%3A24&scaling=min-zoom
@@ -13,16 +22,6 @@ https://www.figma.com/proto/gS9kWX4w8KSmwBusgLKcSE/Untitled?node-id=1%3A24&scali
 | **N°2:** Yo como usuario quiero poder ver los archivos con extensión .md de la ruta asignada, obteniendo así una lista de éstos.                 | El usuario puede obtener una lista con los archivos .md                                                      | El usuario visualiza la lista filtrada de los archivos markdown.                                                                          |
 | **N°3:** Como usuario quiero poder listar los links pertenecientes a los archivos .md dentro de la ruta asignada, para poder acceder a éstos.    | El usuario obtiene una lista de todos los links del archivo seleccionado.                                    | El usuario logra visualizar la lista filtrada de links http dentro del archivo md.                                                        |
 | **N°4:** Como usuario quiero obtener un reporte estadístico que me muestre los links válidos y no válidos, y así optimizar el tiempo de trabajo. | La terminal debería desplegar el detalle de los links que funcionan correctamente y así descartar los demás. | El usuario pudo obtener un registro de los links que funcionan correctamente y los que no, pudiendo trabajar de una manera más eficiente. |
-
-## Qué es md-link
-
-Md-Links es una librería creada de node.js y desarrollada bajo el lenguaje JavaScript, con el propósito de leer archivos md y extraer los links que contienen dichos archivos, con esta librería el usuario podrá  encontrar los enlaces, validar su status y visualizar estádisticas respecto al total de links encontrados, validos y no validos.
-
-## Nombre Liberia
-
-get_my_md_links
-
-https://www.npmjs.com/package/get_my_md_links
 
 
 ## Cómo instalar la librería md-link
